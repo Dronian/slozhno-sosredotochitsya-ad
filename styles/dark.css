@@ -2,10 +2,16 @@
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --heading-color: #db00ff;
-  --title-decor-text: #000028;
+  --decoration-color: #ff0070;
+  --title-color: #db00ff;
+  --title-decor-color: #000028;
+  --hover-link-color: #f1b2ce;
+  --hover-button-color: rgb(255 0 112 / 0.4);
+  --focus-link-color: #f1b2ce;
+  --focus-button-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
-  --menu-color: #ff0070;
-  --menu-hover-color: rgb(255 0 112 / 0.4);
-  --rec-display: flex;
+}
+
+:root.theme-dark .header__decoration {
+  display: block;
 }
